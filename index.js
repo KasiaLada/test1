@@ -61,3 +61,82 @@ console.log(msg.toUpperCase());
 // } else {
 // 	console.log("masz za krótkie hasło");
 // }
+
+// ==========================
+// const x = 50;
+// const y = 30;
+
+// if (x > y) {
+// 	console.log(`${x}>${y}`);
+// }
+// ====================
+const color = "blue";
+const newColor = "green";
+
+if (color === newColor) {
+	console.log("kolory się zgadzają");
+} else {
+	console.log("kolory się nie zgadzają");
+}
+// ==============
+// const x = 100;
+// const y = 50;
+// if (x > y) {
+// 	console.log("x > y");
+// } else if (x === y) {
+// 	console.log("x=y");
+// } else {
+// 	console.log("x<y");
+// }
+// // =============
+
+const promo = "40%";
+
+switch (promo) {
+	case "20%":
+		console.log("dzis jest promoja 20%");
+		break;
+	case "10%":
+		console.log("dzis jest promoja 10%");
+		break;
+	case "30%":
+		console.log("dzis jest promoja 30%");
+		break;
+	default:
+		// console.log("dzis nie ma promocji");
+		console.log(`dziś mamy ${promo} zniżki`);
+}
+
+// =============== operator warunkowy
+
+// const x = 10;
+
+// const check = (x % 2 === 0) ? "x jest parzyste" : "x nie jest parzyste"
+// console.log(check);
+
+// ==========================
+
+// const x = 50;
+
+// if (x >= 100) {
+// 	console.log("x>=100".toUpperCase());
+// } else if (x < 100 && x > 30) {
+// 	console.log(("X jest średniakiem").toUpperCase());
+// } else {
+// 	console.log(("x jest mały").toUpperCase());
+// }
+
+
+const x = 50;
+let text
+
+if (x >= 100) {
+	text = "x>=100"
+} else if (x < 100 && x > 30) {
+	text = "X jest średniakiem"
+} else {
+	text = "x jest mały"
+}
+console.log(text.toUpperCase());
+
+// ======PĘTLE

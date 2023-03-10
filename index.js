@@ -1,14 +1,14 @@
-const name = "Kasia";
-const cat = "Pnelopa";
+// const name = "Kasia";
+// const cat = "Pnelopa";
 
-console.log(`czesc, jestem ${name}, a to jest ${cat}, mój kot`);
+// console.log(`czesc, jestem ${name}, a to jest ${cat}, mój kot`);
 
-const catAge = 16;
+// const catAge = 16;
 
-console.log("Pnelopa ma już " + catAge + "lat " + name + "!");
+// console.log("Pnelopa ma już " + catAge + "lat " + name + "!");
 
-const msg = "abgkfddggjhhj";
-console.log(msg.toUpperCase());
+// const msg = "abgkfddggjhhj";
+// console.log(msg.toUpperCase());
 
 // const text1 = "powieksz mnie";
 // console.log(text1.toUpperCase());
@@ -70,14 +70,14 @@ console.log(msg.toUpperCase());
 // 	console.log(`${x}>${y}`);
 // }
 // ====================
-const color = "blue";
-const newColor = "green";
+// const color = "blue";
+// const newColor = "green";
 
-if (color === newColor) {
-	console.log("kolory się zgadzają");
-} else {
-	console.log("kolory się nie zgadzają");
-}
+// if (color === newColor) {
+// 	console.log("kolory się zgadzają");
+// } else {
+// 	console.log("kolory się nie zgadzają");
+// }
 // ==============
 // const x = 100;
 // const y = 50;
@@ -126,17 +126,22 @@ switch (promo) {
 // 	console.log(("x jest mały").toUpperCase());
 // }
 
-
 const x = 50;
-let text
+let text;
 
 if (x >= 100) {
-	text = "x>=100"
+	text = "x>=100";
 } else if (x < 100 && x > 30) {
-	text = "X jest średniakiem"
+	text = "X jest średniakiem";
 } else {
-	text = "x jest mały"
+	text = "x jest mały";
 }
 console.log(text.toUpperCase());
 
 // ======PĘTLE
+
+const color = ["green", "red", "orange", "black", "white"];
+
+for (let i = 0; i < color.length; i++) {
+	console.log(color[i])
+}

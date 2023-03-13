@@ -143,5 +143,10 @@ console.log(text.toUpperCase());
 const color = ["green", "red", "orange", "black", "white"];
 
 for (let i = 0; i < color.length; i++) {
-	console.log(color[i])
+	console.log(color[i]);
+}
+
+const cities = ["Katowice", "Kraków", "Wrocław"];
+for (let i = 0; i < cities.length; i++) {
+	console.log(`to miasto nazywa sie ${cities[i].toUpperCase()}`);
 }

@@ -126,17 +126,17 @@ switch (promo) {
 // 	console.log(("x jest mały").toUpperCase());
 // }
 
-const x = 50;
-let text;
+// const x = 50;
+// let text;
 
-if (x >= 100) {
-	text = "x>=100";
-} else if (x < 100 && x > 30) {
-	text = "X jest średniakiem";
-} else {
-	text = "x jest mały";
-}
-console.log(text.toUpperCase());
+// if (x >= 100) {
+// 	text = "x>=100";
+// } else if (x < 100 && x > 30) {
+// 	text = "X jest średniakiem";
+// } else {
+// 	text = "x jest mały";
+// }
+// console.log(text.toUpperCase());
 
 // ======PĘTLE
 
@@ -146,7 +146,69 @@ for (let i = 0; i < color.length; i++) {
 	console.log(color[i]);
 }
 
-const cities = ["Katowice", "Kraków", "Wrocław"];
-for (let i = 0; i < cities.length; i++) {
-	console.log(`to miasto nazywa sie ${cities[i].toUpperCase()}`);
+// const cities = ["Katowice", "Kraków", "Wrocław"];
+// for (let i = 0; i < cities.length; i++) {
+// 	console.log(`to miasto nazywa sie ${cities[i].toUpperCase()}`);
+// }
+
+// let x = 0;
+// while (x <= 10) {
+// 	x = x + 2;
+// 	console.log(x);
+// }
+
+// let x = 0;
+// while (x <= 10) {
+// 	// x = x + 2;
+// 	x+=2
+// 	console.log(x);
+// }
+
+// let x = 20;
+// do {
+// 	x = x - 3;
+// 	console.log(x);
+// } while (x > 0);
+
+// let x = 20;
+// do {
+// 	x = x - 3;
+// } while (x > 0);
+// console.log(x);
+
+// let array = [5, 8, 10, 23, 48, 60];
+// for (const numbers of array) {
+// 	console.log(numbers / 5);
+// 	if (x % 2) {
+// 		console.log("liczba jest parzysta");
+// 	} else {
+// 			console.log("liczba jest nieparzysta");
+// 		}
+// 	}
+
+
+let numbers = [5, 8, 10, 23, 48, 60];
+for (const number of numbers) {
+
+	if (number % 2===0) {
+		console.log(`liczba ${number} jest parzysta`);
+	} else {
+		console.log(`liczba ${number} jest nieparzysta`);
+	}
 }
+
+const colors = [1]
+colors.push("gold")
+console.log(colors);
+
+colors.pop("gold");
+console.log(colors);
+
+colors.unshift("gold");
+console.log(colors);
+
+colors.push("gold");
+console.log(colors);
+
+colors.shift("gold");
+console.log(colors);

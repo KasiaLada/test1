@@ -186,19 +186,17 @@ for (let i = 0; i < color.length; i++) {
 // 		}
 // 	}
 
+// let numbers = [5, 8, 10, 23, 48, 60];
+// for (const number of numbers) {
+// 	if (number % 2 === 0) {
+// 		console.log(`liczba ${number} jest parzysta`);
+// 	} else {
+// 		console.log(`liczba ${number} jest nieparzysta`);
+// 	}
+// }
 
-let numbers = [5, 8, 10, 23, 48, 60];
-for (const number of numbers) {
-
-	if (number % 2===0) {
-		console.log(`liczba ${number} jest parzysta`);
-	} else {
-		console.log(`liczba ${number} jest nieparzysta`);
-	}
-}
-
-const colors = [1]
-colors.push("gold")
+const colors = [1];
+colors.push("gold");
 console.log(colors);
 
 colors.pop("gold");
@@ -212,3 +210,57 @@ console.log(colors);
 
 colors.shift("gold");
 console.log(colors);
+
+// zadanie1 =========
+
+let score;
+
+const add = (x, y) => {
+	score = x + y;
+	// if (score % 2 === 0) {
+	// 	evenMsg();
+	// } else {
+	// 	oddMsg();
+	// }
+	score % 2 === 0 ? evenMsg() : oddMsg();
+};
+
+const evenMsg = () => {
+	console.log(`liczba ${score} jest parzysta`);
+};
+const oddMsg = () => {
+	console.log(`liczba ${score} jest nieparzysta`);
+};
+add(10, 10);
+
+// zad 2=============
+
+let celsius;
+let temp;
+
+const fahrenheit = c => {
+	celsius = c;
+	temp = celsius * 1.8 + 32;
+	console.log(`${celsius}C = ${temp}F`);
+};
+
+fahrenheit(20);
+
+// zad 3  ============
+
+const num = 10;
+const numbers = [];
+
+for (let i = 0; i < num; i++) {
+	numbers.push(i);
+}
+// console.log(numbers);
+
+const checkNumbers = number => {
+	if (number % 3 === 0 && number !== 0) {
+		console.log(`${number} jest podzielne przez 3`);
+	} else {
+		console.log(`${number} nie jest podzielne przez 3`);
+	}
+};
+numbers.forEach(checkNumbers)

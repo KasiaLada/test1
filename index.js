@@ -394,8 +394,97 @@
 // number.unshift("blue");
 // console.log(number);
 
-for (let i = 0; i < number.length; i++) {
-    console.log(`moj ulubiony kolor to ${number[i].charAt(0).toUpperCase() + number[i].slice(1)}
-    `);
+// for (let i = 0; i < number.length; i++) {
+//     console.log(`moj ulubiony kolor to ${number[i].charAt(0).toUpperCase() + number[i].slice(1)}
+//     `);
+// }
+
+// function hello(name, age) {
+// name = "Kasia";
+// age = 18;
+// 	console.log(`Cześć mam na imię ${name} i mam ${age}lat`);
+// }
+// hello("Kasia", 18);
+
+// const test = (name, age) => console.log(name, age);
+// test("name", 18);
+
+// const add = (num1, num2) => {
+// 	console.log("czesc");
+// 	return num1 * num2;
+// };
+// const test2 = name => console.log(`mam na imię ${name}`);
+// test2("Kasia");
+
+// const test4 = (name, age) => console.log(name, age);
+// test4("Kasia", 18);
+
+// const days = ["poniedziałek", "wtorek", "sroda"];
+// const days2 = days.forEach(day => console.log(day));
+
+// const name = (params) => {
+
+// }
+
+// let score;
+// const add = (x, y) => {
+// 	score = x + y;
+// 	if (score % 2 === 0) {
+// 		evenMsg();
+// 	} else {
+// 		oddMsg2();
+// 	}
+// };
+// const evenMsg = () => {
+// 	console.log(`liczba ${score} jest parzysta`);
+// };
+// const oddMsg2 = () => {
+// 	console.log(`liczba ${score} jest nieparzysta`);
+// };
+// add(10,10)
+
+// let score;
+// const add = (x, y) => {
+// 	score = x + y;
+// 	if (score % 2 === 0) {
+// 		name();
+// 	} else {
+// 		name2();
+// 	}
+// };
+
+// const name = () => {
+// 	console.log(`liczba ${score} jest parzysta`);
+// };
+
+// const name2 = () => {
+// 	console.log(`liczba ${score} jest nieparzysta`);
+// };
+// add(2, 5);
+
+// let celsius;
+// let temp;
+// const fahrenheit = c => {
+//     celsius = c;
+//     temp = c * 1.8 + 32;
+//     console.log(`${c} stopni = ${temp}`);
+// };
+// fahrenheit(12);
+
+const num = 10;
+const numbers = [];
+
+for (let i = 0; i < num; i++) {
+	numbers.push(i);
 }
 
+// console.log(numbers);
+
+const checkNumbers = number => {
+	if (number % 3 === 0 && number !== 0) {
+		console.log(`${number} jest podzielne przez 3`);
+	} else {
+		console.log(`${number} nie jest podzielne przez 3 lub ${number} = 0`);
+	}
+};
+numbers.forEach(checkNumbers);

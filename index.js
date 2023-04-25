@@ -471,12 +471,12 @@
 // };
 // fahrenheit(12);
 
-const num = 10;
-const numbers = [];
+// const num = 10;
+// const numbers = [];
 
-for (let i = 0; i < num; i++) {
-	numbers.push(i);
-}
+// for (let i = 0; i < num; i++) {
+// 	numbers.push(i);
+// }
 
 // console.log(numbers);
 
@@ -489,4 +489,9 @@ for (let i = 0; i < num; i++) {
 // };
 // numbers.forEach(checkNumbers);
 
-const num = 10;
+// const num = 10;
+
+const heading = document.querySelektor('h1');
+const arr = document.querySelectorAll('p');
+const div = document.querySelector('.test');
+const div2= testDiv.querySelector('#test')
